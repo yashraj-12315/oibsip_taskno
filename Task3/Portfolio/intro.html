@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: aquamarine;">
+    <div class="container" >
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="intro.html">My Intro</a></li>
+            <!-- <li><a href="/services.html">Services</a></li> -->
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="hamburger">
+          <img class="ham" src="ham.png" alt="" width="23px" />
+          <img class="cross" src="cross.png" alt="" width="23px" />
+        </div>
+        <div class="intro">
+          <h1>About me</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+            animi nulla officia esse, neque quo quidem accusamus, velit non
+            voluptas commodi doloribus ab vel quos pariatur ut atque maiores
+            minima ad, cumque nesciunt? Eos cupiditate inventore ex.
+          </p>
+          <h2>My Skills</h2>
+          <div class="skillContainer">
+            <div class="skillItem">
+              HTML:
+              <!-- <div class="skill hundred"></div> -->
+              <div><progress value="80" max="100" style="left:60px;position:relative;">80%</progress></div>
+            </div>
+            <br>
+            <div class="skillItem">
+              CSS:
+              <div><progress value="60" max="100" style="left:70px;position:relative;">60%</progress></div>
+            </div>
+            <br>
+            <div class="skillItem">
+              JavaSript:
+              <div><progress value="50" max="100" style="left:12px;position:relative;">50%</progress></div>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

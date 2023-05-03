@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 5px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight:600;
+  font-size: 20px;
+  margin: 0 3px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.main {
+  width: 80%;
+  margin: auto;
+}
+.contact-main {
+  margin-top: -60px;
+}
+
+.sidebar {
+  background-color: rgb(232, 147, 147);
+  font-family: "Roboto Slab", serif;
+  /* width: 200px; */
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background-color: yellow; */
+  width: 80vw;
+}
+.container {
+  display: flex;
+}
+.infoContainer {
+  height: 51vh;
+  width: 70vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+
+.hello {
+  font-size: 50px;
+}
+.name {
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Roboto Slab", serif;
+}
+.about {
+  font-size: 30px;
+}
+
+.moreabout {
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons .btn {
+  padding: 5px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.buttons .btn:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+.devpic img {
+  width: 18vw;
+  height: 51vh;
+}
+
+.contactform {
+  font-family: "Roboto Slab", serif;
+  padding: 0 34px;
+  padding-top: 140px;
+}
+.contactform h2 {
+  font-weight: bolder;
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  width: 20vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+#form-check {
+  flex-direction: row;
+}
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
+.sm-button {
+  padding: 6px 15px;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 10px;
+}
+.sm-button:hover {
+  background-color: white;
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+.blogItem {
+  margin: 10px 0px;
+  font-family: "Roboto Slab", serif;
+}
+.infoContainer {
+  margin-top: 0;
+  margin-left: 10px;
+}
+h1 {
+  font-family: "Roboto Slab", serif;
+}
+
+p {
+  font-family: "Source Code Pro", monospace;
+}
+
+.intro h1 {
+  margin-left: 10px;
+}
+.intro h2 {
+  margin: 12px;
+}
+.intro p {
+  margin: 12px;
+}
+.skillContainer {
+  padding: 12px;
+}
+.skill {
+  width: 260px;
+  height: 10px;
+  background-color: red;
+  border: 2px solid black;
+}
+.skillItem {
+  display: flex;
+  align-items: center;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 800;
+}
+
+.hundred {
+  width: 260px;
+  background-color: blueviolet;
+}
+.fifty {
+  width: 125px;
+  background-color: aqua;
+}
+.t5 {
+  width: 75px;
+  background-color: yellow;
+}
+
+.sidebarGo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.cross {
+  margin-left: 150px;
+}
+@media (max-width: 700px) {
+  .devpic {
+    display: none;
+  }
+}
+
+.intro
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* bottom: -3rem; */
+
+}
+
+progress {
+  width: 300px;
+  height : 15px;
+  border: none;
+  left: 23px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: green;
+}
+
+progress::-webkit-progress-value {
+  background-color: red;
+}
