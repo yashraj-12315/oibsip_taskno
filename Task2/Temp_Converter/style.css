@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish" ,sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8e7af;
+    display: grid;
+    place-items: center;
+}
+.container{
+    height: 200px;
+    width: 400px;
+    background-color: #e77676;
+    border-radius: 10px;
+}
+form{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#sub{
+    background-color: black;
+    color: aliceblue;
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 5px;
+    
+}
+input{
+    width: 30%;
+    font-weight:500;
+    margin-top: 10px;
+    text-align: center;
+}
+#para{
+    font-size: large;
+}
